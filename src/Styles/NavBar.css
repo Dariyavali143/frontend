@@ -1,0 +1,120 @@
+
+/* Nav bar for pc */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#7967CA;
+    border-radius: 5px;
+  }
+  
+  li {
+    float:right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  li a:hover {
+    background-color:#FDAB44;
+    color:white;
+    border-radius:10px;
+   
+  }
+  
+  li span {
+   
+    margin-left:50px;
+    text-align: center;
+    padding: 10px 16px;
+  font-size:27px;
+    font-weight: bold;
+    color:white;
+   
+  }
+  
+  /*  end nav bar pc*/
+  
+  
+  
+  
+  
+  
+  
+  /* nav bar for pc */
+  div.example {
+    background-color: yellow;
+    padding: 20px;
+  }
+  
+  @media screen and (min-width:769px) {
+    div.NavBar2 {
+      display: none;
+    }
+  
+  }
+  
+  @media screen and (max-width:769px) {
+  div.NavBar1{
+    display: none;
+  }
+  
+  }
+  
+  /* end navbar for pc */
+  
+  
+  
+  
+  
+  
+  /* mobile device  navbar styles and media quary   */
+  
+  @media screen and (max-width:769px) {
+   
+    li span {
+      margin:10px;
+   
+      text-align: center;
+      padding:  10px;
+    font-size:25px;
+      font-weight: bold;
+      color:white;
+     
+    }
+  
+  
+  .sidebar{
+    background-color:#7967CA;
+    width:100%px;
+    height: 100%;
+     /* position:fixed;
+    top:40px;  */
+    text-align: center;
+   
+   
+  }
+  
+    .SideBarLinks{
+      display:block;
+  cursor: pointer;
+  margin-bottom:10px;
+      font-size:20px;
+      border-style:solid;
+      border-width:0.5px; 
+      border-color:azure;
+      color: #FFFFFF;
+      border-radius:7px;
+   
+      
+    }
+  
+  
+  }

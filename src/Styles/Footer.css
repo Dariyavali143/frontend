@@ -1,0 +1,57 @@
+.Footer1 {
+
+    border-style: solid;
+    border-width: 2px;
+    border-color9: brown;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    text-align: left;
+    font-family: Serif;
+
+
+
+
+}
+
+.Footer2 {
+    text-align: center;
+    background-color: #F2F0FF;
+    
+    /* border-style:solid;
+      border-width:1px;
+     border-color8:red;
+     border-radius:5px; */
+      font-family: Serif;
+      font-weight:bold;
+}
+
+.ML{
+    /* margin-left: 10%; */
+    text-align: center;
+   
+}
+
+
+
+.Fdesc{
+    cursor: pointer;
+}
+
+
+
+
+@media (max-width:768px)
+{ 
+
+
+
+}
+
+.Icons{
+
+    font-size: 25px;
+    color:#213B50;
+    opacity: 0.7;
+    padding: 10px;
+    cursor: pointer;
+}

@@ -1,0 +1,177 @@
+.container{
+    padding-right: 6px;
+    padding-left: 6px;
+    
+    }
+    .create-profil{
+    /* background-color8:Lightblue; */
+    text-align: center;
+    /* margin-right8: -20px; */
+    
+    
+    }
+    
+
+.GotoHome{
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    opacity: 0.6;
+}
+
+
+
+.GotoHome:hover {
+    color: red;
+    opacity: 0.6;
+
+}
+    
+    .create-profil h2{
+        
+        text-align: center;
+        color:#475966;
+    }
+    
+    
+    
+    .create-profil p{
+        
+        text-align: center;
+        color:#9b9898;
+    }
+    
+    
+    
+    .create-profil span{
+        
+        text-align: center;
+        color:#2EADAA;
+        font-weight:bolder;
+    }
+    
+    
+    
+    .sdv{
+        /* border8:2px solid red;
+        background-color8:lightgreen; */
+        box-shadow:0px 0px 20px 1px #E0E0E0;
+        
+        }
+    
+    
+    
+        .sdv1{
+           
+            background-color:#F6F6F6;
+            box-shadow:0px 0px 1px 1px #E0E0E0;
+            text-align: center;
+            }
+    
+    
+            .sdv1 h5{
+                color:#2EADAA;
+               margin-top: 20px;
+               
+                
+                }
+    
+    
+    .input-filed8{
+    
+        background-color:Lightblue;   
+    }
+    
+    label{
+        color:#6e6a6a;
+    
+    }
+    
+    .btn8{
+    
+    
+    width: 150px;
+    background:#00C2F5;
+    border-radius: 5px;
+    border-color: #00C2F5;
+    font-size: 20px;
+    font-weight: bolder;
+    float: right;
+    }
+    
+    .input-fileds{
+    
+    
+    margin-left: 30px;
+    
+    }
+    
+    
+    .term-condition span{
+    
+        color: #00C2F5;
+    
+    }
+    
+    
+    .pws-msg{
+    
+    color:rgb(211, 145, 145);
+    
+    }
+    
+    
+    
+    /* Captcha styles */
+    
+    .captcha {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+      
+      .captcha span {
+        font-size: 24px;
+        font-weight: bold;
+        margin-right: 20px;
+      }
+    
+    
+    .reload-button{
+    width: 50px;
+    border-radius: 10px;
+    
+    }
+    /* end Captcha styles */
+    
+    
+    @media (max-width:1024px) {
+    
+        * {
+            padding-right: 0px;
+            padding-left: 0px;
+    
+        }
+    
+    
+    
+    
+        .input-fileds {
+    
+    
+            margin-left: 0px;
+    
+        }
+    
+    
+        .term-condition {
+            font-size: 11px;
+            font-weight: bold;
+    
+    
+        }
+    
+    
+    
+    
+    }

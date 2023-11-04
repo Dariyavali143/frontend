@@ -1,0 +1,480 @@
+
+
+.SerchContainer1 {
+  width: 90%;
+  background-color8: aqua;
+  height: auto;
+  /* margin-left: 25%; */
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 0px;
+
+
+
+}
+
+
+
+
+.navbar-brand{
+margin-left:20px;
+font-size:30px;
+font-weight:bold;
+text-shadow: 5px 5px 10px red;
+text-decoration: underline solid red 2%; 
+}
+
+
+
+
+
+.sidebar{
+background-color:#7967CA;
+width:100%px;
+height: 100%;
+ /* position:fixed;
+top:40px;  */
+text-align: center;
+
+
+}
+
+.SideBarLinks{
+display:block;
+cursor: pointer;
+margin-bottom:10px;
+font-size:17px;
+border-style:solid;
+border-width:0.5px; 
+border-color:#00FF00;
+color:white;
+border-radius:7px;
+
+
+}
+
+
+
+.offcanvas-title{
+margin-left:0px;
+ font-size:30px;
+font-weight:bold;
+text-shadow: 5px 5px 10px red;
+text-decoration: underline solid red 2%; 
+
+}
+
+
+
+.SerchContainer2 {
+  width: 50%;
+  background-color: #BFA083;
+  height: auto;
+  margin-left: 25%;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: -10px;
+  opacity: 0.7;
+}
+
+.SerchContainer1 h5 {
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  opacity: 0.8;
+  margin-top: 200px;
+  font-weight: bold;
+  text-shadow: 5px 5px 10px blue;
+
+}
+
+
+
+.SerchContainer1 h1 {
+  color:#FDAB44;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  font-weight: bolder;
+  opacity: 0.7;
+
+}
+
+
+
+
+.hero-image {
+  /* background-image: url("https://img.freepik.com/premium-photo/happy-girl-sitting-office-table_76964-26732.jpg"); */
+
+  background-image: url("https://static.vecteezy.com/system/resources/previews/010/120/749/large_2x/beautiful-young-asian-businesswoman-charming-smiling-and-talking-on-the-mobile-phone-in-the-office-and-looking-at-the-camera-free-photo.jpg");
+  background-color8: #cccccc;
+  height: 600px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.button-style {
+  font-weight: bold;
+  cursor: pointer;
+  color: white !important;
+
+}
+
+
+.button-style:hover {
+  color: orange !important;
+
+}
+
+
+
+/*  job details styles*/
+
+
+
+.job-details {
+  margin-left: 5%;
+  margin-right: 0px;
+  width: 90%;
+  height: fit-content;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 0px 0px 0px #6C6C6C;
+  border: 0.5px solid #6C6C6C;
+  margin-bottom: 2%;
+
+
+}
+
+
+.title {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: #6C6C6C;
+}
+
+.desc {
+  color: #6C6C6C;
+  font-size: 16px;
+}
+
+/* end job details styles*/
+
+
+
+/*FilterSection */
+
+.filter-section{
+
+  margin-left: 5%;
+  margin-right: 0px;
+  width: 90%;
+  height: fit-content;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 0px 0px 0px #6C6C6C;
+  border: 0.5px solid #6C6C6C;
+  margin-bottom: 2%;
+}
+/* end FilterSection */
+
+
+/*  Filter buttons*/
+.FilterButons{
+  display:block;
+cursor: pointer;
+margin-bottom:5px;
+font-size:15px;
+border-style:solid;
+border-width:0.5px; 
+border-color:#00FF00;
+color:black;
+border-radius:7px;
+background-color: #FDAB44;
+width: 100%;
+opacity: 0.9;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/*  notice bord section*/
+.Notice-Bord{
+
+  margin-left: 5%;
+  margin-right: 0px;
+  width: 90%;
+  height: fit-content;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 0px 0px 0px #6C6C6C;
+  border: 0.5px solid #6C6C6C;
+  margin-bottom: 2%;
+}
+
+/* end notice bord section*/
+
+
+
+
+/* Modal styles */
+
+.popupmodal_h5{
+  margin-left: 22%;
+}
+
+.popupmodal_p{
+  margin-left:5%;
+}
+
+
+
+
+@media (max-width:425px) {
+
+  .popupmodal_h5{
+    margin-left:0%;
+  }
+  
+  .popupmodal_p{
+    margin-left:0%;
+  }
+
+}
+
+
+
+
+
+@media (max-width:768px) {
+
+  .SerchContainer2 {
+    width: 100%;
+
+    height: auto;
+    margin-left: 0%;
+    border-radius: 5px;
+    padding: 0px;
+    background-color: '';
+    opacity: 0.7;
+  }
+
+  /*  job details styles*/
+  .job-details {
+    margin-left:0px;
+    margin-right: 0px;
+    width: 99%;
+    height: fit-content;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 0px 0px #6C6C6C;
+    border: 0.5px solid #6C6C6C;
+    margin-bottom: 2%;
+  
+  
+  }
+  
+/* end job details styles*/
+
+
+
+/*FilterSection */
+
+.filter-section{
+
+  margin-left: 0%;
+  margin-right: 0px;
+  width: 99%;
+  height: fit-content;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 0px 0px 0px #6C6C6C;
+  border: 0.5px solid #6C6C6C;
+  margin-bottom: 2%;
+}
+/* end FilterSection */
+
+
+
+
+
+/*  notice bord section*/
+.Notice-Bord{
+
+  margin-left: 0%;
+  margin-right: 0px;
+  width: 99%;
+  height: fit-content;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 0px 0px 0px #6C6C6C;
+  border: 0.5px solid #6C6C6C;
+  margin-bottom: 2%;
+}
+
+/* end notice bord section*/
+
+
+
+
+
+
+
+
+
+
+
+  /* 
+    .col-lg-12 {
+        overflow: hidden;
+    background-color: blue;
+      position:sticky;
+ 
+     
+    } */
+
+
+}
+
+
+
+
+@media (max-width:320px) {
+
+
+
+
+  .hero-image {
+    /* background-image: url("https://img.freepik.com/free-photo/young-smiley-businesswomen-working-with-laptop-desk_23-2148824883.jpg"); */
+
+    background-image: url("https://static.vecteezy.com/system/resources/previews/010/120/749/large_2x/beautiful-young-asian-businesswoman-charming-smiling-and-talking-on-the-mobile-phone-in-the-office-and-looking-at-the-camera-free-photo.jpg");
+
+    height: 300px;
+    width: fit-content;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+  }
+}
+
+
+
+
+
+
+
+
+/* Text animation  */
+.waviy {
+  Color: blue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  font-weight: bolder;
+  opacity: 0.7;
+}
+
+.waviy span {
+  font-family: 'Roboto', sans-serif, cursive;
+  position: relative;
+  display: inline-block;
+  Color:black;
+  font-weight: bold;
+  animation: waviy 5s infinite;
+  animation-delay: calc(.1s * var(--i));
+  margin-right: px;
+  /* //opacity: 0.8; */
+  text-shadow: 5px 5px 10px #00FF00;
+
+}
+
+@keyframes waviy {
+  0%, 40%, 100% {
+    transform: translateY(0)
+  }
+
+  20% {
+    transform: translateY(-20px)
+  }
+}
+
+/*  end Text animation  */
+
+
+
+
+
+
+
+@media (min-width:320px) and (max-width:375px)
+{ 
+
+  .navbar-brand{
+    margin-left:0px;
+     font-size:25px;
+   font-weight:bold;
+   }
+     
+.SerchContainer1 h5 {
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  opacity: 0.8;
+  margin-top: 0px;
+}
+
+
+.SerchContainer1 h1 {
+  color: blue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: bolder;
+  opacity: 0.7;
+
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+/* 
+
+@media (min-width:1024px) {
+.col-lg-12 {
+    overflow: hidden;
+  position: fixed;
+  top: 0;
+}
+} */
+
+
+
+
+
